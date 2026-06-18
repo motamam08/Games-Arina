@@ -252,7 +252,10 @@ button {
   border-color: var(--primary-color);
   cursor: pointer;
 }
-.carousel-inner .inner:hover .game-image {
+.carousel-inner .inner:hover .game-image{
+  transition: transform 0.3s ;
+}
+.carousel-inner .inner:hover .game-image{
   transform: scale(1.06);
 }
 .carousel-inner .inner:hover .img-badges {
